@@ -1,0 +1,35 @@
+[
+  // Ctrl + Tabで、タブの順番に切り替わるようにする
+  { "keys": ["ctrl+tab"], "command": "next_view" },
+  { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+  // テキストをタグで囲むショートカットをDW風キーバインドに
+  { "keys": ["super+t"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+  // new view into file
+  { "keys": ["super+shift+alt+n"], "command": "clone_file" },
+  // すべてのタブを閉じる
+  { "keys": ["super+shift+w"], "command": "close_all" },
+  // 画像サイズを修正する ※動いてない？
+  { "keys": ["super+shift+alt+i"], "command": "run_emmet_action", "args": { "action": "update_image_size" }, "context": [{"key": "emmet_action_enabled.update_image_size"}]},
+  // インデントの整形のショートカット
+  { "keys": ["super+ctrl+shift+q"], "command": "reindent" , "args": { "single_line": false } },
+  // HTML編集中、shift + enter で<br>を挿入するDW風キーバインド
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "<br>\n"}, 
+    "context": [
+      {
+        "key": "selector",
+        "operand": "text.html.basic - source",
+        "operator": "equal"
+      }
+    ]
+  },
+  //markdown編集中、shift + enter で改行を挿入する
+  { "keys": ["shift+enter"], "command": "insert_snippet", "args": {"contents": "  \n"}, 
+    "context": [
+      {
+        "key": "selector",
+        "operand": "text.html.markdown - source",
+        "operator": "equal"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"IMESupport"
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Babel",
+		"BracketHighlighter",
+		"CoffeeScript",
+		"ConvertJaZenHan",
+		"ConvertToUTF8",
+		"CSS Extended Completions",
+		"EditorConfig",
+		"EJS",
+		"Emmet",
+		"Expand Selection to Quotes",
+		"Gist",
+		"Haml",
+		"HTML5",
+		"HTMLAttributes",
+		"IMESupport",
+		"IndentGuides",
+		"InputSequence",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"jQuery",
+		"LESS",
+		"Monokai Extended",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"Smart Delete",
+		"SublimeLinter",
+		"Sublimerge Pro",
+		"Theme - Flatland"
+	],
+	"repositories":
+	[
+		"https://github.com/kazu1107/InputSequence.git"
+	]
+}
