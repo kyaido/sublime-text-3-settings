@@ -34,6 +34,7 @@
 		"SideBarEnhancements",
 		"Smart Delete",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-csslint",
 		"SublimeLinter-html-tidy",
