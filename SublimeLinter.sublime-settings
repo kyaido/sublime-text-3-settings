@@ -36,7 +36,7 @@
 			},
 			"htmltidy":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 				],
