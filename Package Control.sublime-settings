@@ -34,6 +34,10 @@
 		"SideBarEnhancements",
 		"Smart Delete",
 		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
 		"Sublimerge Pro",
 		"Theme - Flatland"
 	],

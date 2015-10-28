@@ -13,6 +13,7 @@
 	"ignored_packages":
 	[
 		"IMESupport",
+		"SublimeLinter-contrib-scss-lint",
 		"Vintage"
 	],
 	"match_selection": false,
