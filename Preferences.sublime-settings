@@ -12,7 +12,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"IMESupport",
 		"SublimeLinter-contrib-scss-lint",
 		"Vintage"
 	],
